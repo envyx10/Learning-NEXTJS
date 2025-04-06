@@ -1,0 +1,16 @@
+# Carpetas que no deben copiarse al contenedor
+node_modules
+.next
+.git
+
+# Archivos del sistema y configuraciones locales
+.env
+.env.*
+npm-debug.log
+.DS_Store
+Thumbs.db
+
+# Archivos del proyecto que no afectan al contenedor
+Dockerfile
+.dockerignore
+README.md
